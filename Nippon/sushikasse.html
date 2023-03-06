@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/logos/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nippon</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+        </style>
+</head>
+<body>
+
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+    <header>
+        <section class="top-nav">
+            <a href="index.html"> <figure class="nav-logo">
+              <img src="/img/logos/logo.png" alt="">
+            </figure> </a>
+            <a href="dashboard.html"><figure class="menu-man">
+                <img src="/img/icons/man.png" alt="">
+            </figure></a>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        
+          </label>
+            <ul class="menu">
+                <li><a href="dashboard.html">Min konto</a></li> 
+              <li><a href="404.html">Måltidskasser</a></li> 
+              <li><a href="sadan-fungere-det.html">Sådan fungerer det</a></li> 
+              <li><a href="hvem-er-vi.html">Hvem er vi?</a></li> 
+              <li><a href="404.html">Kontakt</a></li>
+              <li><a href="kurv.html">Kurv</a></li> 
+            </ul>
+        </section>
+                </header>
+
+
+    <section class="box-info-sushi">
+        <h1>SUSHI KASSEN</h1>
+        <article class="box-info-text">
+            <p>Sushimåltidskasser er en populær måde at nyde frisk og lækker sushi i hjemmet. Kasserne indeholder alle ingredienserne til at lave sushi, inklusive ris, tang, forskellige slags fisk, grøntsager og toppings. Der er også vegetariske og allergivenlige muligheder.</p>
+        </article>
+    </section>
+
+    <section class="order">
+        <article>
+            <p>2 personer fra
+                <br>
+                <span>299</span>
+                kr
+            </p>
+        </article>
+        <figure>
+            <div class="order-btn" id="myBtn">
+                <a href="#">Bestil</a>
+                
+            </div>
+            <!-- Trigger/Open The Modal -->
+
+
+        </figure>
+    </section>
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+      <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <section class="order-section">
+
+        <h2>SUSHI KASSEN</h2>
+        <figure class="line"></figure>
+        <br>
+
+            <article class="order-article">
+                <figure class="order-icon">
+                    <img src="/img/icons/man-plus.png" alt="">
+                </figure>
+                <p>
+                    Antal personer
+                </p>
+            </article>
+            <section>
+                <form class="boxed">
+                    <input type="radio" id="1" name="skills">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="skills">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="skills">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="skills">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="skills">
+                    <label for="5">5</label>
+                  </form>
+            </section>
+
+            <section class="small-filler"></section>
+
+            <article class="order-article">
+                <figure class="order-icon">
+                    <img src="/img/icons/calender.png" alt="">
+                </figure>
+                <p>
+                    Antal dage
+                </p>
+            </article>
+            <section>
+                <form class="boxed">
+                    <input type="radio" id="6" name="skills">
+                    <label for="6">2</label>
+                    <input type="radio" id="7" name="skills">
+                    <label for="7">3</label>
+                    <input type="radio" id="8" name="skills">
+                    <label for="8">4</label>
+                    <input type="radio" id="9" name="skills">
+                    <label for="9">5</label>
+                  </form>            </section>
+
+                  <section class="small-filler"></section>
+
+        <a href="/kurv.html"><figure class="box-selection"> Næste
+        </figure></a>
+    
+    </section>
+  </div>
+
+</div>
+
+    <section class="small-filler"></section>
+
+    <section class="icon-box">
+        <h2>SUSHI I KVALITET</h2>
+        <article class="icon-text" >
+            <img src="/img/icons/food.png" alt="">
+            <p>Råvarer af højeste kvalitet.</p>
+        </article>
+
+        <article class="icon-text" >
+            <img src="/img/icons/time.png" alt="">
+            <p>Alle retter kan tilberedes på 30-40 min.</p>
+        </article>
+
+        <article class="icon-text" >
+            <img src="/img/icons/calender.png" alt="">
+            <p>Bestil kassen til 2-5 dage om ugen.</p>
+        </article>
+
+        <article class="icon-text" >
+            <img src="/img/icons/hook.png" alt="">
+            <p>Altid bæredygtigt fanget eller ansvarligt opdrættet</p>
+        </article>
+    </section>
+
+    <section class="menuen">
+        <article >
+            <h2>UGENS MENU</h2>
+            <h3>Uge 9</h3>
+        </article>
+
+        <article class="weekly-menuen-recipe">
+            <img src="/img/mad/makirulle.png" alt="">
+            <p>Klassisk makirulle med laks.</p>
+        </article>
+
+        <figure class="horisontal-line"></figure>
+
+        <article class="weekly-menuen-recipe">
+            <img src="/img/mad/nigiri.png" alt="">
+            <p>Nigiri og Chirashi med svinefilet.</p>
+        </article>
+
+        <figure class="horisontal-line"></figure>
+
+        <article class="weekly-menuen-recipe">
+            <img src="/img/mad/tun.png" alt="">
+            <p>Sushi med lynsvitset tun.</p>
+        </article>
+
+        <figure class="horisontal-line"></figure>
+
+        <article class="weekly-menuen-recipe">
+            <img src="/img/mad/slagskibssushi.png" alt="">
+            <p>Slagskibssushi.</p>
+        </article>
+
+        <figure class="horisontal-line"></figure>
+
+        <article class="weekly-menuen-recipe">
+            <img src="/img/mad/pokebowl.png" alt="">
+            <p>Sushibowle med laks og avocado.</p>
+        </article>
+    </section>
+
+    <section class="box-description">
+        <h2>SUSHI MED GOD SAMVITTIGHED</h2>
+        <article class="box-description-text" >
+            <p>Vi er stolte af at tilbyde en række håndlavede sushimåltidskasser, som er sammensat med omhu og omhyggeligt udvalgte ingredienser af højeste kvalitet. <br><br> 
+                
+                Vores sushi-kokke er eksperter i at tilberede en række forskellige sushi-varianter, lige fra de klassiske til de mere innovative. Vi bruger kun de friskeste ingredienser, som er håndplukket til hver eneste sushimåltidskasse. Hver enkelt kasse er også smukt præsenteret, så du kan nyde den fulde sushioplevelse.
+            </p>
+        </article>
+    </section>
+</div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

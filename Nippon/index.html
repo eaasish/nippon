@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nippon - Japanske måltidskasser leveret til døren</title>
+    <meta name="description" content="Nippon - japanske måltidskasser leveret direkte til døren">
+    <meta name="keywords" content="Måltidskasser, japansk, Nippon, hverdagsluksus">
+     <meta name="author" content="Emma, Simone, Sabina & Torben">
+     <link rel="shortcut icon" type="image/x-icon" href="/img/logos/favicon.png">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+        </style>
+
+
+</head>
+<body>
+
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<header>
+<section class="top-nav">
+    <a href="index.html"> <figure class="nav-logo">
+      <img src="/img/logos/logo.png" alt="">
+    </figure> </a>
+    <figure class="menu-man" onclick="document.getElementById('id01').style.display='block'">
+        <img src="/img/icons/man.png" alt="" >
+    </figure>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+
+  </label>
+    <ul class="menu">
+        <li><a href="dashboard.html">Min konto</a></li> 
+      <li><a href="404.html">Måltidskasser</a></li> 
+      <li><a href="sadan-fungere-det.html">Sådan fungerer det</a></li> 
+      <li><a href="hvem-er-vi.html">Hvem er vi?</a></li> 
+      <li><a href="404.html">Kontakt</a></li>
+      <li><a href="kurv.html">Kurv</a></li> 
+    </ul>
+</section>
+        </header>
+
+<!-- Modal box - log ind -->
+
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/dashboard.html" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times; </span>
+        <h2>LOG IND</h2>
+      </div>
+  
+      <div class="container">
+  
+        <input type="text" placeholder="E-mail" name="uname" required>
+  
+        
+        <input type="password" placeholder="Adgangskode" name="psw" required>
+          
+        <label class="forgot-pass">
+          <div>
+            <input class="check" type="checkbox" checked="checked" name="remember"> Forbliv logget ind
+          </div>
+          <div>
+            <span><a class="psw" href="#">Har du glemt dit kodeord?</a></span>
+          </div>
+        </label>
+  
+      </div>
+  
+      <button id="btn-3" type="submit"> Log ind</button>
+  
+      <section class="or-box">
+      <figure class="line"></figure>
+      <p>eller</p>
+      <figure class="line"></figure>
+      </section>
+  
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Log ind med Facebook
+         </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-google fa-fw"></i> Log ind med Google
+        </a>
+        <a href="#" class="google btn"><i class="fa fa-apple fa-fw">
+          </i> Log ind med Apple 
+        </a>
+      </div>
+  
+      <div class="new-account"> 
+        <span>Ingen konto?</span>
+        <a href="404.html">Tilmeld dig</a>
+      </div>
+      
+    </form>
+  </div>
+
+
+   <main>
+    <section class="hero">
+        <section class="frame">
+        <figure class="hero-video">
+
+        </figure>
+
+        <figure class="hero-picture">
+            <img src="/img/mad/circle-food@4x.png" alt="">
+        </figure>
+
+        <figure class="big-logo">
+            <img src="/img/logos/big-logo.png" alt="">
+        </figure>
+    </section>
+    </section>
+
+
+    <section class="start-bar">
+            <article class="bar">
+                <p class="start-bar-number">
+                    50+ 
+                </p>
+                <p class="start-bar-text">
+                    Opskrifter
+                </p>
+            </article>
+            
+            <figure class="verticel-line"></figure>
+
+            <article class="bar">
+                <p class="start-bar-number">
+                    99+
+                </p>
+                <p class="start-bar-text">
+                    Kunder
+                </p>
+            </article>
+
+            <figure class="verticel-line"></figure>
+
+            <article class="bar">
+                <p class="start-bar-number">
+                    4,7
+                </p>
+                <p class="start-bar-text">
+                    Trustpilot
+                </p>
+            </article>
+    </section>
+
+    <section class="sub-box-container">
+        <h1>MÅLTIDSKASSER</h1>
+        <section class="sub-box-right">
+            <article class="sub-box-text">
+                <h2>LUKSUS KASSEN</h2>
+                <p>
+                    Kvalitet og nye spændene smagsopleveseler. Forkæl dig selv i hverdagen med vores luksus kasse.  
+                </p>
+
+                <a href="luksuskasse.html"> <href> 
+                    <div class="box-selection">
+                     Vælg kasse
+                </div> </a>
+            </article>
+            <figure class="sub-box-picture">
+                <img src="./img/mad/Aktiv-5.png" alt="">
+            </figure>
+        </section>
+
+        <section class="sub-box-left">
+            <article class="sub-box-text">
+                <h2>SUSHI KASSEN</h2>
+                <p>
+                    Sushi fra det traditionelle japanske køkken. Tilberedes altid af helt friske råvarer og med masser af smag i fokus.
+                </p>
+
+                <a href="sushikasse.html"> <href> 
+                    <div class="box-selection">
+                     Vælg kasse
+                </div> </a>
+            </article>
+            <figure class="sub-box-picture-left">
+                <img src="./img/mad/sushibillede.png" alt="">
+            </figure>
+        </section>
+
+        <section class="sub-box-right">
+            <article class="sub-box-text">
+                <h2>LYN KASSEN</h2>
+                <p>
+                    Til den travle hverdag. Klassiske aftenmåltider, inspireret af det japanske køkken, som du kan tilberede på 10-30 minutter.
+                </p>
+
+                <a href="lynkasse.html"> <href> 
+                    <div class="box-selection">
+                     Vælg kasse
+                </div> </a>
+            </article>
+            <figure class="sub-box-picture">
+                <img src="./img/mad/Aktiv-3.png" alt="">
+            </figure>
+        </section>
+    </section>
+
+    <section class="why-container">
+        
+            <h3>HVORFOR NIPPON</h3>
+            <figure class="circle">
+                <article class="circle-text">
+                      <p>
+                        Nippon er det perfekte valg, når det kommer til at levere måltidskasser. Vores retter er autentiske, friske og lækre, med fokus på japanske smage og traditioner. Hos Nippon er vi også kendt for en bæredygtig tilgang til produktion og emballering, hvilket gør os til et miljøvenligt valg.
+            </p>                 
+                </article>
+                
+            </figure>
+            
+    </section>
+   </main>
+
+   <footer>
+        <figure class="footer-logo" ><img src="/img/logos/logo.png" alt=""></figure>
+        <article class="kundeservice">
+            <li>Alle varer er økologiske, undtaget varer indeholdende vildtfangede fisk i henhold til Rådets forordning 834/2007 om økologisk produktion og mærkning.</li>
+        </article>
+        <article class="nyhedsbrev">
+            <li><b>Kundeservice</b></li>
+               <li> 70 26 00 66</li>
+               <li> kundeservice@nippon.dk</li>
+        </article>
+    </section>
+   </footer>
+</div>
+</body>
+</html>

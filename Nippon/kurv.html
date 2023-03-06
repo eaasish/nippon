@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/logos/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nippon</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+        </style>
+        
+</head>
+<body>
+<div class="mobile-container">
+
+     <!-- Top Navigation Menu -->
+     <header>
+        <section class="top-nav">
+            <a href="index.html"> <figure class="nav-logo">
+              <img src="/img/logos/logo.png" alt="">
+            </figure> </a>
+            <a href="dashboard.html"><figure class="menu-man">
+                <img src="/img/icons/man.png" alt="">
+            </figure></a>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        
+          </label>
+            <ul class="menu">
+                <li><a href="dashboard.html">Min konto</a></li> 
+              <li><a href="404.html">Måltidskasser</a></li> 
+              <li><a href="sadan-fungere-det.html">Sådan fungerer det</a></li> 
+              <li><a href="hvem-er-vi.html">Hvem er vi?</a></li> 
+              <li><a href="404.html">Kontakt</a></li>
+              <li><a href="kurv.html">Kurv</a></li> 
+            </ul>
+        </section>
+                </header>
+    <section class="fixed-background">
+        <section class="small-filler
+        "></section>
+        <section>
+            <h1>DIN BESTILLING</h1>
+
+
+            <section class="wrapper-order">
+
+                <section class="inside-wrapper">
+                    <article class="recipe-picture">
+                        <img src="/img/mad/Aktiv-5.png" alt="">
+                    </article>
+    
+                    <article class="recipe-details">
+                    <h2>LUKSUS KASSEN</h2>
+    
+                        <img src="/img/icons/man.png" alt="">
+                        <p>1</p>
+    
+    
+                        <img src="/img/icons/calender.png" alt="">
+                        <p>4</p>
+                    </article>
+                </section>
+                <br> <br>
+                <article>
+                    <figure class="picture-left">
+                        <img src="/img/icons/trash.png" alt="">
+                    </figure>
+                <p class="text-right"> <span>725</span> kr. </p>
+                </article>
+            </section>
+
+            <section class="small-filler"></section>
+
+            <section class="wrapper">
+                <h3 class="order-headline">TIDSPUNKT FOR LEVERING</h3>
+
+                <form class="days">
+                    <input type="radio" id="1" name="skills">
+                    <label for="1">MAN</label>
+                    <input type="radio" id="2" name="skills">
+                    <label for="2">ONS</label>
+                    <input type="radio" id="3" name="skills">
+                    <label for="3">FRE</label>
+                  </form>
+
+                  <article>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus natus sint quam ullam pariatur totam!</p>
+                  </article>
+
+            </section>
+
+            <section class="small-filler"></section>
+
+            <section class="wrapper">
+                <h3 class="order-headline">LEVERINGSADRESSE</h3>
+                <article class="delivery">
+                    <input class="search" id="myInput"  type="text" placeholder="Adresse" title="Type in a name">
+                    <input class="search" id="myInput"  type="text" placeholder="Postnummer" title="Type in a number">
+                </article>
+        
+            </section>
+
+            <section class="small-filler"></section>
+
+            <section class="wrapper">
+                <article class="delivery">
+                    <h3 class="order-headline">BETALINGSMETODE</h3>
+                    <form class="payment">
+                        <input type="radio" id="Kreditkort" name="skills">
+                        <label for="Kreditkort">Kreditkort</label>
+                        <input type="radio" id="MobilePay" name="skills">
+                        <label for="MobilePay">MobilePay</label>
+                        <input type="radio" id="ApplePay" name="skills">
+                        <label for="ApplePay">ApplePay</label>
+                      </form>
+                </article>
+            </section>
+
+            <section class="small-filler"></section>
+
+            <a href="404.html"><figure class="cancel-btn">
+                BETAL
+            </figure></a>
+            
+
+    </section>
+</div>
+</body>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("Demo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</html>
